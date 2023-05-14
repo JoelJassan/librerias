@@ -7,8 +7,8 @@ int main(void)
 {
     // Configurar el reloj del sistema
 
-    Gpio_Config();
     SystemClock_Confi();
+    Gpio_Config();
 
     while (1)
     {
